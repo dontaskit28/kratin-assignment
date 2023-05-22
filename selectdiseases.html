@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="selectdiseases.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="section2" class="selection-page-container">
+      <div class="container">
+        <div class="row">
+          <h1 class="diseases-heading col-12">
+            Please select the diseases you have.
+          </h1>
+          <div class="checkbox-and-label-cont col-12 col-md-6">
+            <input
+              type="checkbox"
+              id="1"
+              class="check-box-element shadow"
+              onchange="checkboxStatusChange('1')"
+            />
+            <label for="1" id="l1" class="check-box-label">Diabetes</label>
+          </div>
+          <div class="checkbox-and-label-cont col-12 col-md-6">
+            <input
+              type="checkbox"
+              id="2"
+              class="check-box-element shadow"
+              onchange="checkboxStatusChange('2')"
+            />
+            <label for="2" id="l2" class="check-box-label"
+              >Knee Pain (Osteoarthritis)</label
+            >
+          </div>
+          <div class="checkbox-and-label-cont col-12 col-md-6">
+            <input
+              type="checkbox"
+              id="3"
+              class="check-box-element shadow"
+              onchange="checkboxStatusChange('3')"
+            />
+            <label for="3" id="l3" class="check-box-label"
+              >Color Blindness</label
+            >
+          </div>
+          <div class="checkbox-and-label-cont col-12 col-md-6">
+            <input
+              type="checkbox"
+              id="4"
+              class="check-box-element shadow"
+              onchange="checkboxStatusChange('4')"
+            />
+            <label for="4" id="l4" class="check-box-label">Mouth Ulcer</label>
+          </div>
+          <div class="checkbox-and-label-cont col-12 col-md-6">
+            <input
+              type="checkbox"
+              id="5"
+              class="check-box-element shadow"
+              onchange="checkboxStatusChange('5')"
+            />
+            <label for="5" id="l5" class="check-box-label">Constipation</label>
+          </div>
+          <div class="checkbox-and-label-cont col-12 col-md-6">
+            <input
+              type="checkbox"
+              id="6"
+              class="check-box-element shadow"
+              onchange="checkboxStatusChange('6')"
+            />
+            <label for="6" id="l6" class="check-box-label"
+              >Nausea / Vomiting</label
+            >
+          </div>
+          <div class="checkbox-and-label-cont col-12 col-md-6">
+            <input
+              type="checkbox"
+              id="7"
+              class="check-box-element shadow"
+              onchange="checkboxStatusChange('7')"
+            />
+            <label for="7" id="l7" class="check-box-label">Tonsils</label>
+          </div>
+          <div class="checkbox-and-label-cont col-12 col-md-6">
+            <input
+              type="checkbox"
+              id="8"
+              class="check-box-element shadow"
+              onchange="checkboxStatusChange('8')"
+            />
+            <label for="8" id="l8" class="check-box-label">Insomnia</label>
+          </div>
+          <div class="checkbox-and-label-cont col-12 col-md-6">
+            <input
+              type="checkbox"
+              id="9"
+              class="check-box-element shadow"
+              onchange="checkboxStatusChange('9')"
+            />
+            <label for="9" id="l9" class="check-box-label">Hypertension</label>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <button
+            class="optionspage-Btn btn btn-warning shadow m-4"
+            onclick="navigateToLogin()"
+          >
+            Back
+          </button>
+          <button
+            class="optionspage-Btn btn btn-primary shadow m-4"
+            onclick="navigateToDetails()"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="selectdiseases.js"></script>
+  </body>
+</html>

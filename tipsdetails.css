@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.details-cont {
+  background-image: url("https://res.cloudinary.com/dr9l4y45k/image/upload/v1679372741/1_kklh8o.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.person-details {
+  font-size: 22px;
+  font-family: "Breeserif";
+  color: black;
+}
+
+#uname,
+#ugender,
+#uproblem,
+#uweight {
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.details-card {
+  padding: 20px;
+  height: 400px;
+  overflow-y: scroll;
+  border-radius: 15px;
+  background-color: pink;
+}
+
+.details-heading {
+  font-family: "Bree serif";
+  font-size: 40px;
+  color: blue;
+  font-weight: bold;
+}
+
+.details-para {
+  font-family: "Breeserif";
+  font-size: 18px;
+  color: #183b56;
+  font-weight: 600;
+}
+
+.do-head {
+  font-family: "Bree serif";
+  font-size: 30px;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.dont-head {
+  font-family: "Bree serif";
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
+
+.list-item {
+  color: #1b1b1b;
+  font-family: "Breeserif";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.link {
+  color: blue;
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+.link-des {
+  color: green;
+  font-weight: bold;
+  font-family: "Breeserif";
+  font-size: 17px;
+}
+
+.detailspage-btn {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  border-width: 0px;
+}

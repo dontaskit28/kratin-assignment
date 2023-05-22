@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.login-container {
+  background-image: url("https://res.cloudinary.com/dr9l4y45k/image/upload/v1679372741/1_kklh8o.jpg");
+  background-size: cover;
+  padding: 10px;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+.form-heading {
+  font-family: "Lucida Handwriting";
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.logo {
+  height: 180px;
+  width: 180px;
+  border-radius: 200px;
+}
+
+@media screen and (min-width: 576px) {
+  .logo {
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .logo {
+    height: 330px;
+    width: 330px;
+    border-radius: 200px;
+  }
+
+  .img-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+  }
+}
+
+.input-label {
+  font-size: 18px;
+  font-family: "BreeSerif";
+  margin-bottom: 1px;
+  font-weight: 600;
+}
+
+.form-control {
+  border-color: black;
+}
+
+.error-message {
+  color: red;
+  font-family: "Roboto";
+  font-size: 14px;
+}

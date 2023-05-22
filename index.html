@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="section1" class="login-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-4">
+            <h1 class="form-heading text-center shadow">
+              OLD AGE PEOPLE'S <br />Health Care
+            </h1>
+          </div>
+          <div class="img-cont col-12 col-lg-6 text-center pt-3 mt-4">
+            <img
+              class="logo shadow"
+              src="https://res.cloudinary.com/dr9l4y45k/image/upload/v1679312424/old_couple_lx2vm7.png"
+            />
+          </div>
+          <div class="col-12 col-lg-6 pt-4">
+            <form id="myForm">
+              <div class="mb-3">
+                <label for="name" class="input-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control shadow"
+                  id="name"
+                  placeholder="Please enter your name"
+                />
+                <p id="nameErrMsg" class="error-message"></p>
+              </div>
+              <div class="mb-3">
+                <label for="age" class="input-label">Age</label>
+                <input
+                  type="number"
+                  class="form-control shadow"
+                  id="age"
+                  placeholder="Please enter your age"
+                />
+                <p id="ageErrMsg" class="error-message"></p>
+              </div>
+              <div class="mb-3">
+                <label for="height" class="input-label">Height</label>
+                <input
+                  type="number"
+                  class="form-control shadow"
+                  id="height"
+                  placeholder="Please enter your height"
+                />
+                <p id="heightErrMsg" class="error-message"></p>
+              </div>
+              <div class="mb-3">
+                <label for="weight" class="input-label">Weight</label>
+                <input
+                  type="number"
+                  class="form-control shadow"
+                  id="weight"
+                  placeholder="Please enter your weight"
+                />
+                <p id="weightErrMsg" class="error-message"></p>
+              </div>
+              <div class="mb-3">
+                <h1 class="input-label">Gender</h1>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="genderMale"
+                  value="Male"
+                  checked
+                />
+                <label for="genderMale">Male</label>
+                <input
+                  type="radio"
+                  name="gender"
+                  id="genderFemale"
+                  value="Female"
+                  class="ml-2"
+                />
+                <label for="genderFemale">Female</label>
+              </div>
+              <button class="btn btn-primary shadow" id="submitButton">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
